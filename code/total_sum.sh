@@ -26,6 +26,6 @@ cat $OUTPUT/sumIBD_chr*.txt | awk '
   }
 ' > $OUTPUT/sumIBD_all_chr.txt 
 
-cat sumIBD_all_chr.txt | sed -r 's/~/\t/g' | awk '{print $1,$2,$3}' > sumIBD_all_chr_sep.txt
+cat sumIBD_all_chr.txt | sed -r 's/~/\t/g' | awk '{print $1,$2,$3}' > sumIBD_all_chr_final.txt
 
 
