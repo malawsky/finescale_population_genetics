@@ -17,7 +17,7 @@ This code easily runs on 50,000 humans and has not been tested on larger sample 
 1. Analyzing population structure using IBD-based clustering (example shown in population_structure.py).
 2. As a fixed effect relationship matrix in association studies (can include relateds).
 3. Conducting permutation tests in association studies by randomly permuting the outcome variable of high IBD-sharing individuals (e.g. randomly sample
-the outcome variable from the 10 most highly weighted IBD-neighbors).
+the outcome variable from the n most highly weighted IBD-neighbors).
 
 ## Inputs and outputs
 
