@@ -25,7 +25,7 @@ Input files are the seg IBIS output files. IBIS is a phase-free IBD detection al
 
 Output files are:
 1. sumIBD_all_chr_final.txt A (N*(N-1)/2)x3 table with the first and second columns as the IDs of every possible individual pairs and the third column the total length of IBD sharing in genetic units. (produced by total_sum.sh)
-2. A Nx2 table with the first column an ID of an individual and the second column being a cluster designation bbased on Louvain graph clustering. (produced by louvain_cluster.py)
+2. IBD_clusters.txt A Nx2 table with the first column an ID of an individual and the second column being a cluster designation bbased on Louvain graph clustering. (produced by louvain_cluster.py)
 
 
 
